@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	float amount, discount, pay;
+
+	cout<<"Amount to purchase:";
+	cin>>amount;
+
+	cout<<"Net Amount Payable:"<<pay;
+
+	if ((amount>0)&&(amount<=1000))
+	{
+		cout<<"\n You received a 5% discount!";
+		discount=(amount*5)/100;
+		pay=amount-discount;
+	}
+	else if ((amount>1001)&&(amount<=4999))	
+	{
+		cout<<" \n You received a 10% discount!";
+		discount=(amount*10)/100;
+		pay=amount-discount;
+	}
+	else (amount>5000);
+	{
+		cout<<"\n You received a 15% discount";
+		discount=(amount*15)/100;
+		pay=amount-discount;
+	}
+
+	return 0;
+
+}
