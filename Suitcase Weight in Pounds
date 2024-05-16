@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	float lbs;
+	int percentage;
+
+	cout<<"Enter the amount of pounds your suitcase weigh:";
+	cin>>lbs;
+
+	if (lbs>=50)
+	{
+		cout<<"\n That will be $25 charge for the heavy luggage.";
+	}
+	else
+	{
+		cout<<" \n Thank you for your business!";
+	}
+
+	return 0;
+
+}
