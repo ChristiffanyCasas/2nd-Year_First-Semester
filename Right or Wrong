@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	//C++ Program to check the input text for the right or wrong answer
+
+	string realname="Shon Seung-wan";
+	
+	string real;
+
+	cout<<"What is the real name of Red Velvet's Wendy?";
+	cin>>real;
+
+	if (realname=="Shon Seung-wan")
+	{
+		cout<<"You got it right! What a fan!";
+	}
+	else 
+	{
+		cout<<"Oops, you sure need to listen to more of their songs to know them better. Highly recommended!";
+	}
+
+	return 0;
+
+}
