@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	
+	//Take 3 ages from the user/s and determine oldest and youngest among them.
+
+	float age1, age2, age3;
+	
+	cout<<"User1 Enter your Age:";
+	cin>>age1;
+
+	cout<<"User2 Enter your Age:";
+	cin>>age2;
+
+	cout<<"User3 Enter your Age:";	
+	cin>> age3;
+
+	if ((age1>=age2)&&(age1>=age3))
+	{
+		cout<<"\n User1 with "<<age1<<" age is the oldest.";
+	}
+	else if (age2>=age3)
+	{
+		cout<<"\n User2 with "<<age2<<" age is the oldest.";
+	}
+	else
+	{
+		cout<<"\n User3 with "<<age3<<" age is the oldest.";
+	}
+	
+	if ((age1<=age2)&&(age1<=age3))
+	{
+		cout<<"\n User1 with "<<age1<<" age is the youngest.";
+ 	}
+	else if (age2<=age3)
+	{
+		cout<<"\n User2 with "<<age2<<" age is the youngest.";
+	}
+	else
+	{
+		cout<<"\n User3 with "<<age3<<" age is the youngest.";
+	}
+
+	return 0;
+
+}
