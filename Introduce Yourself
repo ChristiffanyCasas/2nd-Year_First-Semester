@@ -1,0 +1,23 @@
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+{
+//Declare and display variables that will
+//introduce yourself, with your name, age, address, phone number, school,
+//and department.
+
+string name = &quot;Christiffany Casas \n&quot;;
+string address = &quot;Pasig City \n&quot;;
+string school = &quot;RTU Boni \n&quot;;
+string dept = &quot;Statistics \n&quot;;
+string age = &quot;18 \n&quot;;
+string numb = &quot;9304021565 \n&quot;;
+cout&lt;&lt;&quot;\t\tProfile\n&quot;;
+cout&lt;&lt;&quot;Name: &quot;&lt;&lt;name;
+cout&lt;&lt;&quot;Address: &quot;&lt;&lt;address;
+cout&lt;&lt;&quot;School: &quot;&lt;&lt;school;
+cout&lt;&lt;&quot;Department: &quot;&lt;&lt;dept;
+cout&lt;&lt;&quot;Age: &quot;&lt;&lt;age;
+cout&lt;&lt;&quot;Contact Number: &quot;&lt;&lt;numb;
+return 0;
+}
