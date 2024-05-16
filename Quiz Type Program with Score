@@ -1,0 +1,163 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+
+	//Put your section full with a dash
+    	//Fill the date as MM/DD/YYYY
+    	//Answer the following in questions in CAPITAL LETTERS
+
+	cout<<"\t \t \t \t \t \t     Basic Computer Languages (COMP 1)\n";
+	cout<<"\t \t \t \t \t \t \t \t  Quiz #1\n";
+
+	float wrongans, score;
+
+	string firstname, lastname, section, date;
+
+	string answer1="B";
+	string answer2="C";
+	string answer3="C";
+	string answer4="A";
+	string answer5="B";
+
+	cout<<"First Name: ";
+	cin>>firstname;
+	
+	cout<<"Last name: ";
+	cin>>lastname;
+	
+	cout<<"Section: ";
+	cin>>section;
+
+    	cout<<"Date: ";
+	cin>>date;
+	cout<<"\n";
+
+	cout<<"Write the correct letter for your chosen answer.\n";
+	cout<<"\n";
+
+	cout<<"1. Convert the decimal 43 to binary.\n";
+	cout<<"A. 100100\n";
+	cout<<"B. 101011\n";
+	cout<<"C. 010101\n";
+	cout<<"\n";
+
+	cout<<"Answer: ";
+	cin>>answer1;
+	cout<<"\n";
+
+	cout<<"2. Transform 256 to hexadecimal.\n";
+	cout<<"A. 23D\n";
+	cout<<"B. 5D8\n";
+	cout<<"C. 100\n";
+	cout<<"\n";
+
+	cout<<"Answer: ";
+	cin>>answer2;
+	cout<<"\n";
+	
+	cout<<"3. Find the binary of 21.\n";
+	cout<<"A. 10110\n";
+	cout<<"B. 11011110\n";
+	cout<<"C. 10101\n";
+	cout<<"\n";
+
+	cout<<"Answer: ";
+	cin>>answer3;
+	cout<<"\n";
+
+	cout<<"4. What is the hexadecimal of 330?\n";
+	cout<<"A. 14A\n";
+	cout<<"B. A02\n";
+	cout<<"C. 230\n";
+	cout<<"\n";
+
+	cout<<"Answer: ";
+	cin>>answer4;
+	cout<<"\n";
+
+	cout<<"5. Solve for the binary 10011110 into decimal.\n";
+	cout<<"A. 155\n";
+	cout<<"B. 158\n";
+	cout<<"C. 153\n";
+	cout<<"\n";
+
+	cout<<"Answer: ";
+	cin>>answer5;
+	cout<<"\n";
+	
+	if (answer1=="B")
+	{
+		cout<<"[/]";
+		cout<<"\n";
+	}
+	else
+	{
+		cout<<"[X]";
+		cout<<"\n";
+	}
+
+	if (answer2=="C")
+	{
+		cout<<"[/]";
+		cout<<"\n";
+	}
+	else
+	{
+		cout<<"[X]";
+		cout<<"\n";
+	}
+
+	if (answer3=="C")
+	{
+		cout<<"[/]";
+		cout<<"\n";
+	}
+	else
+	{
+		cout<<"[X]";
+		cout<<"\n";
+	}
+
+	if (answer4=="A")
+	{
+		cout<<"[/]";
+		cout<<"\n";
+	}
+	else
+	{
+		cout<<"[X]";
+		cout<<"\n";
+	}
+
+	if (answer5=="B")
+	{
+		cout<<"[/]";
+		cout<<"\n";
+	}
+	else
+	{
+		cout<<"[X]";
+		cout<<"\n";
+	}
+
+    	cout<<"\n";
+	cout<<"Enter how many X you see: ";
+	cin>>wrongans;
+	cout<<"\n";
+
+	score=(5-wrongans);
+
+	if (wrongans<=3)
+	{
+		cout<<"Congratulations! Your score is "<<score<<". You passed the quiz!";
+	}
+	else
+	{
+		cout<<"Oops, it looks like someone did not not review making their score "<<score<<".";
+	}
+
+	return 0;
+
+}
